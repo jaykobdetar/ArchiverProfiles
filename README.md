@@ -10,6 +10,18 @@ All profiles are JSON files containing:
 - `description`: Brief description of what content this profile covers
 - `fields`: Array of field definitions for metadata capture
 
+## Field Types
+
+- `text` - Single-line text entry
+- `textarea` - Multi-line text entry for longer content
+- `select` - Dropdown selection from predefined options (single choice)
+- `multiselect` - Dropdown selection allowing multiple choices
+- `boolean` - True/false checkbox
+- `date` - Date picker (YYYY-MM-DD)
+- `datetime` - Date and time picker
+- `number` - Numeric value
+- `tags` - Multiple tag entries with free-form input
+
 ## Available Profiles
 
 ### Interview Profile (`interview.json`)
@@ -32,17 +44,6 @@ Used for cataloging all types of interviews including TV, radio, podcast, and pr
 - `source` (text, required) - Where the archive obtained the interview
 - `duration` (number, optional) - Length in seconds
 
-## Field Types
-
-- `text` - Single-line text entry
-- `textarea` - Multi-line text entry for longer content
-- `select` - Dropdown selection from predefined options (single choice)
-- `multiselect` - Dropdown selection allowing multiple choices
-- `boolean` - True/false checkbox
-- `date` - Date picker (YYYY-MM-DD)
-- `datetime` - Date and time picker
-- `number` - Numeric value
-- `tags` - Multiple tag entries with free-form input
 
 ## Usage
 
