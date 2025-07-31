@@ -24,7 +24,7 @@ All profiles are JSON files containing:
 
 ## Available Profiles
 
-### Interview Profile (`interview.json`)
+### Interview Profile (`Interviews.json`)
 
 Used for cataloging all types of interviews including TV, radio, podcast, and print interviews.
 
