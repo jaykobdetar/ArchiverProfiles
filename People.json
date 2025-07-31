@@ -1,0 +1,205 @@
+{
+  "id": "aa28e748-5504-4671-bed5-425922da2d15",
+  "name": "Personre",
+  "description": "Reference record for individuals (politicians, journalists, commentators, etc.)",
+  "fields": [
+    {
+      "name": "person_id",
+      "display_name": "Person ID",
+      "field_type": "text",
+      "required": true,
+      "default_value": null,
+      "options": null,
+      "description": "Unique identifier (e.g., 'donald-trump', 'joe-biden')",
+      "validation_pattern": null
+    },
+    {
+      "name": "full_name",
+      "display_name": "Full Name",
+      "field_type": "text",
+      "required": true,
+      "default_value": null,
+      "options": null,
+      "description": "Complete official name",
+      "validation_pattern": null
+    },
+    {
+      "name": "person_type",
+      "display_name": "Person Type",
+      "field_type": "select",
+      "required": true,
+      "default_value": null,
+      "options": [
+        "Politician",
+        "Journalist",
+        "TV Host",
+        "Radio Host",
+        "Podcast Host",
+        "Commentator",
+        "Activist",
+        "Business Leader",
+        "Judge",
+        "Government Official",
+        "Campaign Staff",
+        "Academic",
+        "Celebrity",
+        "Other"
+      ],
+      "description": null,
+      "validation_pattern": null
+    },
+    {
+      "name": "political_leaning",
+      "display_name": "Political Leaning",
+      "field_type": "select",
+      "required": true,
+      "default_value": null,
+      "options": [
+        "Far Left",
+        "Left",
+        "Center-Left",
+        "Center",
+        "Center-Right",
+        "Right",
+        "Far Right",
+        "Varies",
+        "Nonpartisan",
+        "Unknown"
+      ],
+      "description": null,
+      "validation_pattern": null
+    },
+    {
+      "name": "party_affiliation",
+      "display_name": "Party Affiliation",
+      "field_type": "select",
+      "required": false,
+      "default_value": null,
+      "options": [
+        "Republican",
+        "Democrat",
+        "Independent",
+        "Libertarian",
+        "Green",
+        "Other",
+        "None",
+        "Former Republican",
+        "Former Democrat"
+      ],
+      "description": null,
+      "validation_pattern": null
+    },
+    {
+      "name": "current_roles",
+      "display_name": "Current Roles",
+      "field_type": "tags",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Current positions/jobs (e.g., 'President', 'Fox News Host')",
+      "validation_pattern": null
+    },
+    {
+      "name": "former_roles",
+      "display_name": "Former Roles",
+      "field_type": "tags",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Previous positions/jobs",
+      "validation_pattern": null
+    },
+    {
+      "name": "organizations",
+      "display_name": "Associated Organizations",
+      "field_type": "tags",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Companies, networks, agencies they work(ed) for",
+      "validation_pattern": null
+    },
+    {
+      "name": "birth_date",
+      "display_name": "Birth Date",
+      "field_type": "date",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Date of birth if public knowledge",
+      "validation_pattern": null
+    },
+    {
+      "name": "birth_place",
+      "display_name": "Birth Place",
+      "field_type": "text",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "City, State/Country",
+      "validation_pattern": null
+    },
+    {
+      "name": "active_period",
+      "display_name": "Active Period",
+      "field_type": "text",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Years active in politics/media (e.g., '2015-present')",
+      "validation_pattern": null
+    },
+    {
+      "name": "education",
+      "display_name": "Education",
+      "field_type": "text",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Highest degree or notable institutions",
+      "validation_pattern": null
+    },
+    {
+      "name": "social_media",
+      "display_name": "Social Media Handles",
+      "field_type": "tags",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Twitter/X, Truth Social, etc. handles",
+      "validation_pattern": null
+    },
+    {
+      "name": "official_website",
+      "display_name": "Official Website",
+      "field_type": "text",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Personal or campaign website",
+      "validation_pattern": null
+    },
+    {
+      "name": "notes",
+      "display_name": "Additional Notes",
+      "field_type": "textarea",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Other relevant information",
+      "validation_pattern": null
+    },
+    {
+      "name": "last_updated",
+      "display_name": "Last Updated",
+      "field_type": "date",
+      "required": true,
+      "default_value": null,
+      "options": null,
+      "description": null,
+      "validation_pattern": null
+    }
+  ],
+  "created_at": "2025-07-31T10:00:00Z",
+  "updated_at": "2025-07-31T17:47:45.390139"
+}

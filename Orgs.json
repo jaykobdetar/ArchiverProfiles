@@ -1,0 +1,174 @@
+{
+  "id": "f5d11d62-5696-4b7c-b977-e76a74020061",
+  "name": "Organization",
+  "description": "Reference record for media companies, shows, and other organizations",
+  "fields": [
+    {
+      "name": "org_id",
+      "display_name": "Organization ID",
+      "field_type": "text",
+      "required": true,
+      "default_value": null,
+      "options": null,
+      "description": "Unique identifier",
+      "validation_pattern": null
+    },
+    {
+      "name": "org_name",
+      "display_name": "Organization Name",
+      "field_type": "text",
+      "required": true,
+      "default_value": null,
+      "options": null,
+      "description": "Full official name",
+      "validation_pattern": null
+    },
+    {
+      "name": "org_type",
+      "display_name": "Organization Type",
+      "field_type": "select",
+      "required": true,
+      "default_value": null,
+      "options": [
+        "Cable News Network",
+        "Broadcast Network",
+        "Newspaper",
+        "Digital Media",
+        "Podcast",
+        "Radio Show",
+        "TV Show",
+        "Think Tank",
+        "Political Organization",
+        "Government Agency",
+        "Social Media Platform",
+        "Other"
+      ],
+      "description": null,
+      "validation_pattern": null
+    },
+    {
+      "name": "political_leaning",
+      "display_name": "Political Leaning",
+      "field_type": "select",
+      "required": true,
+      "default_value": null,
+      "options": [
+        "Left",
+        "Right",
+        "Far left",
+        "Far right",
+        "Other/Nonpartisan/Unclear"
+      ],
+      "description": null,
+      "validation_pattern": null
+    },
+    {
+      "name": "parent_company",
+      "display_name": "Parent Company",
+      "field_type": "text",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Parent organization if applicable",
+      "validation_pattern": null
+    },
+    {
+      "name": "founded_date",
+      "display_name": "Founded",
+      "field_type": "text",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Year founded (e.g., '1996')",
+      "validation_pattern": null
+    },
+    {
+      "name": "headquarters",
+      "display_name": "Headquarters",
+      "field_type": "text",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Primary location (e.g., 'New York, NY')",
+      "validation_pattern": null
+    },
+    {
+      "name": "status",
+      "display_name": "Status",
+      "field_type": "select",
+      "required": true,
+      "default_value": "Active",
+      "options": [
+        "Active",
+        "Defunct",
+        "Merged",
+        "Rebranded",
+        "Unknown"
+      ],
+      "description": "As of the date that this is last updated",
+      "validation_pattern": null
+    },
+    {
+      "name": "key_people",
+      "display_name": "Key People",
+      "field_type": "tags",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Important figures (founders, CEOs, hosts)",
+      "validation_pattern": null
+    },
+    {
+      "name": "affiliated_orgs",
+      "display_name": "Affiliated Organizations",
+      "field_type": "tags",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Related organizations",
+      "validation_pattern": null
+    },
+    {
+      "name": "notable_shows",
+      "display_name": "Notable Shows/Programs",
+      "field_type": "tags",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Major shows or programs",
+      "validation_pattern": null
+    },
+    {
+      "name": "website",
+      "display_name": "Website",
+      "field_type": "text",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Official website URL",
+      "validation_pattern": null
+    },
+    {
+      "name": "notes",
+      "display_name": "Notes",
+      "field_type": "textarea",
+      "required": false,
+      "default_value": null,
+      "options": null,
+      "description": "Additional information",
+      "validation_pattern": null
+    },
+    {
+      "name": "last_updated",
+      "display_name": "Last Updated",
+      "field_type": "date",
+      "required": true,
+      "default_value": null,
+      "options": null,
+      "description": null,
+      "validation_pattern": null
+    }
+  ],
+  "created_at": "2025-07-31T10:00:00Z",
+  "updated_at": "2025-07-31T17:38:00.220412"
+}
