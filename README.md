@@ -32,7 +32,6 @@ Used for cataloging all types of interviews including TV, radio, podcast, and pr
 - `show` (select, optional) - The show/network that conducted the interview
 - `interviewee` (text, required) - Person being interviewed
 - `date` (date, required) - Date the interview was conducted
-- `mainstream` (boolean, optional) - Whether conducted by mainstream media outlet
 - `purposeful` (boolean, optional) - Whether interview focuses on specific subject vs general
 - `topics` (tags, optional) - Topics discussed in the interview
 - `platform` (select, optional) - Original distribution platform
@@ -41,7 +40,7 @@ Used for cataloging all types of interviews including TV, radio, podcast, and pr
 - `in_person` (boolean, required) - Whether conducted in person
 - `language` (select, required) - Primary language (English/Spanish/Other)
 - `format` (select, required) - Format type (Video/Audio/Text/Other)
-- `source` (text, required) - Where the archive obtained the interview
+- `source` (text, required) - Where and how the archive obtained the interview
 - `duration` (number, optional) - Length in seconds
 
 
